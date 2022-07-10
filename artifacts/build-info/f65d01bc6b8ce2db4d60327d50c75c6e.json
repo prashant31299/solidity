@@ -1,0 +1,69 @@
+{
+	"id": "f65d01bc6b8ce2db4d60327d50c75c6e",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.5.17",
+	"solcLongVersion": "0.5.17+commit.d19bba13",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"bool.sol": {
+				"content": "//sp\\"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"formattedMessage": "bool.sol:1:6: Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.5.17;\"\n//sp\\\n     ^\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.5.17;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": 5,
+					"file": "bool.sol",
+					"start": 5
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"bool.sol": {
+				"ast": {
+					"absolutePath": "bool.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "5:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

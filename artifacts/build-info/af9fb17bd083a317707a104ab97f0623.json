@@ -1,0 +1,289 @@
+{
+	"id": "af9fb17bd083a317707a104ab97f0623",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.5.17",
+	"solcLongVersion": "0.5.17+commit.d19bba13",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"bool.sol": {
+				"content": "//SPDX-License-UNLICENSED:UNLICENSED\n\ncontract bools{\n\n    \n\n\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"bool.sol": {
+				"bools": {
+					"abi": [],
+					"devdoc": {
+						"methods": {}
+					},
+					"evm": {
+						"assembly": "    /* \"bool.sol\":38:63  contract bools{... */\n  mstore(0x40, 0x80)\n  callvalue\n    /* \"--CODEGEN--\":8:17   */\n  dup1\n    /* \"--CODEGEN--\":5:7   */\n  iszero\n  tag_1\n  jumpi\n    /* \"--CODEGEN--\":30:31   */\n  0x00\n    /* \"--CODEGEN--\":27:28   */\n  dup1\n    /* \"--CODEGEN--\":20:32   */\n  revert\n    /* \"--CODEGEN--\":5:7   */\ntag_1:\n    /* \"bool.sol\":38:63  contract bools{... */\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"bool.sol\":38:63  contract bools{... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa265627a7a72315820887f8c2b134ae1f506d1ce66d364a6ad2855e0fed4676481d545fa48c276031a64736f6c63430005110032\n}\n",
+						"bytecode": {
+							"linkReferences": {},
+							"object": "6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820887f8c2b134ae1f506d1ce66d364a6ad2855e0fed4676481d545fa48c276031a64736f6c63430005110032",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3E DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 DUP9 PUSH32 0x8C2B134AE1F506D1CE66D364A6AD2855E0FED4676481D545FA48C276031A6473 PUSH16 0x6C634300051100320000000000000000 ",
+							"sourceMap": "38:25:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;38:25:0;;;;;;;"
+						},
+						"deployedBytecode": {
+							"linkReferences": {},
+							"object": "6080604052600080fdfea265627a7a72315820887f8c2b134ae1f506d1ce66d364a6ad2855e0fed4676481d545fa48c276031a64736f6c63430005110032",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 DUP9 PUSH32 0x8C2B134AE1F506D1CE66D364A6AD2855E0FED4676481D545FA48C276031A6473 PUSH16 0x6C634300051100320000000000000000 ",
+							"sourceMap": "38:25:0:-;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12400",
+								"executionCost": "66",
+								"totalCost": "12466"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 38,
+									"end": 63,
+									"name": "PUSH",
+									"value": "80"
+								},
+								{
+									"begin": 38,
+									"end": 63,
+									"name": "PUSH",
+									"value": "40"
+								},
+								{
+									"begin": 38,
+									"end": 63,
+									"name": "MSTORE"
+								},
+								{
+									"begin": 38,
+									"end": 63,
+									"name": "CALLVALUE"
+								},
+								{
+									"begin": 8,
+									"end": 17,
+									"name": "DUP1"
+								},
+								{
+									"begin": 5,
+									"end": 7,
+									"name": "ISZERO"
+								},
+								{
+									"begin": 5,
+									"end": 7,
+									"name": "PUSH [tag]",
+									"value": "1"
+								},
+								{
+									"begin": 5,
+									"end": 7,
+									"name": "JUMPI"
+								},
+								{
+									"begin": 30,
+									"end": 31,
+									"name": "PUSH",
+									"value": "0"
+								},
+								{
+									"begin": 27,
+									"end": 28,
+									"name": "DUP1"
+								},
+								{
+									"begin": 20,
+									"end": 32,
+									"name": "REVERT"
+								},
+								{
+									"begin": 5,
+									"end": 7,
+									"name": "tag",
+									"value": "1"
+								},
+								{
+									"begin": 5,
+									"end": 7,
+									"name": "JUMPDEST"
+								},
+								{
+									"begin": 38,
+									"end": 63,
+									"name": "POP"
+								},
+								{
+									"begin": 38,
+									"end": 63,
+									"name": "PUSH #[$]",
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 38,
+									"end": 63,
+									"name": "DUP1"
+								},
+								{
+									"begin": 38,
+									"end": 63,
+									"name": "PUSH [$]",
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 38,
+									"end": 63,
+									"name": "PUSH",
+									"value": "0"
+								},
+								{
+									"begin": 38,
+									"end": 63,
+									"name": "CODECOPY"
+								},
+								{
+									"begin": 38,
+									"end": 63,
+									"name": "PUSH",
+									"value": "0"
+								},
+								{
+									"begin": 38,
+									"end": 63,
+									"name": "RETURN"
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a265627a7a72315820887f8c2b134ae1f506d1ce66d364a6ad2855e0fed4676481d545fa48c276031a64736f6c63430005110032",
+									".code": [
+										{
+											"begin": 38,
+											"end": 63,
+											"name": "PUSH",
+											"value": "80"
+										},
+										{
+											"begin": 38,
+											"end": 63,
+											"name": "PUSH",
+											"value": "40"
+										},
+										{
+											"begin": 38,
+											"end": 63,
+											"name": "MSTORE"
+										},
+										{
+											"begin": 38,
+											"end": 63,
+											"name": "PUSH",
+											"value": "0"
+										},
+										{
+											"begin": 38,
+											"end": 63,
+											"name": "DUP1"
+										},
+										{
+											"begin": 38,
+											"end": 63,
+											"name": "REVERT"
+										}
+									]
+								}
+							}
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"bool.sol\":\"bools\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"bool.sol\":{\"keccak256\":\"0x6198d015e3a7b4aad8271dd5e9758dd3abf31680a9e2a0769bcd91ce8ba20e0a\",\"urls\":[\"bzz-raw://c878fb892fa6c5eef548f1680b454b1eef39681822724d2e701c251f9b771ec2\",\"dweb:/ipfs/QmP8vsTdVFW6veAAbg1RR6NcBJKBadPVcpJpK78Z27SXd2\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"methods": {}
+					}
+				}
+			}
+		},
+		"errors": [
+			{
+				"component": "general",
+				"formattedMessage": "bool.sol:3:1: Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.5.17;\"\ncontract bools{\n^ (Relevant source part starts here and spans across multiple lines).\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.5.17;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": 63,
+					"file": "bool.sol",
+					"start": 38
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"bool.sol": {
+				"ast": {
+					"absolutePath": "bool.sol",
+					"exportedSymbols": {
+						"bools": [
+							1
+						]
+					},
+					"id": 2,
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"baseContracts": [],
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"documentation": null,
+							"fullyImplemented": true,
+							"id": 1,
+							"linearizedBaseContracts": [
+								1
+							],
+							"name": "bools",
+							"nodeType": "ContractDefinition",
+							"nodes": [],
+							"scope": 2,
+							"src": "38:25:0"
+						}
+					],
+					"src": "38:25:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

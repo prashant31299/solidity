@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "num",
+						"type": "int256"
+					}
+				],
+				"name": "checkEvenOdd",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"if_else.sol": "IfElse"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"if_else.sol": {
+			"keccak256": "0x8ef767502bca7def4efa3281e80c61fdfa302d812ebbdaf8029692fd59539a5a",
+			"urls": [
+				"bzz-raw://ac9cdd92ba3e582988a817dd0f5061b9d090b69092ea663e3f676e0da0772a62",
+				"dweb:/ipfs/QmZ1YV7q37i86AXUWdQ6RsqxDyCvcRCRopixR7mKCmmftw"
+			]
+		}
+	},
+	"version": 1
+}

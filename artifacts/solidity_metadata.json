@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "num",
+						"type": "int256"
+					}
+				],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"if_else.sol": "solidity"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"if_else.sol": {
+			"keccak256": "0xc0730973f730089ac77d0f62a2319f06abc69424056067e7104538d46c068c5a",
+			"urls": [
+				"bzz-raw://9bbf85967ff60d8ae448219e41d1942d6397541a899f15151fea6c99b765d088",
+				"dweb:/ipfs/QmQq65BzyBRK6XFJo3TLA9axbLiRkEACUCkmVD21hnfdQ7"
+			]
+		}
+	},
+	"version": 1
+}

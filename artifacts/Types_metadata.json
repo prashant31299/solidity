@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "decision_making",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"if_else.sol": "Types"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"if_else.sol": {
+			"keccak256": "0x7bd5626f2f4a5c16315e2881917482a950dfc7fccf7a0f7eec2ebe9c298131b0",
+			"urls": [
+				"bzz-raw://a86997e3b90611a49931578a8657973cb20492cc3fa9598676411fd1e128a698",
+				"dweb:/ipfs/QmTZAuPiwHqDW564LwGxnkZpLaj6E1NHe5EB1mn2L6Ue2H"
+			]
+		}
+	},
+	"version": 1
+}
